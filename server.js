@@ -8,7 +8,7 @@ let app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-app.use(cors({ origin: [ 'https://backendqlnn.herokuapp.com/' ], credentials: true }));
+app.use(cors({ origin: [ 'https://backendqlnn.herokuapp.com' ], credentials: true }));
 
 app.use(session1({
     secret: "bimat",
