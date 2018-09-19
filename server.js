@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
 })
 
 const port = 5050
-app.listen(process.env.PORT, (err) => {
+app.listen(port, (err) => {
     if (err) console.log(err)
     else console.log(`Sever running at ${port}`)
 })
