@@ -3,10 +3,10 @@ const tableRouter = express.Router()
 
 const TableModel = require('../models/tableModel')
 
-tableRouter.use('/', (req, res, next) => {
-    console.log('table router middleware em ei')
-    next();
-})
+// tableRouter.use('/', (req, res, next) => {
+//     console.log('table router middleware em ei')
+//     next();
+// })
 
 tableRouter.post('/', (req, res) => {
     try {

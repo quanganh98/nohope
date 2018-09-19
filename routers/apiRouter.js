@@ -6,7 +6,7 @@ const menuRouter = require('./menuRouter')
 const tableRouter = require('./tableRouter')
 const authRouter = require('./authRouter')
 
-apiRouter.use('/menu/', menuRouter)
+apiRouter.use('/menu', menuRouter)
 apiRouter.use('/users', userRouter)
 apiRouter.use('/tables',  tableRouter)
 apiRouter.use('/auth', authRouter)

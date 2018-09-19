@@ -5,10 +5,10 @@ const bcrypt = require('bcrypt-nodejs')
 const AccountModel = require('../models/accountModel')
 
 
-accountRouter.use('/', (req, res, next) => {
-    console.log("user router middleware")
-    next()
-})
+// accountRouter.use('/', (req, res, next) => {
+//     console.log("user router middleware")
+//     next()
+// })
 
 accountRouter.get('/test', (req, res) => {
     console.log('test user router okk')
